@@ -17,10 +17,17 @@ public class App {
 
         if (nbDeVentes > 10) {
             salaireFinal = salaireDeBase + primePotentielle;
+            System.out.println("felicitation vous aviez rempli le quota");
+        } else if (nbDeVentes == 10) {
+            salaireFinal = salaireDeBase + primePotentielle;
+            System.out.println("tout juste");
+        } else {
+            salaireFinal = salaireDeBase + primePotentielle;
+            System.out.println("il vous manque nombre de vente");
+
         }
-        // eezz
 
         System.out.println("le salaire est de " + salaireFinal + " euros ");
     }
-
-}
+// j'ai rajouté un else if qd sa sera un egalité puis un else qd sa sera
+// inferieur
