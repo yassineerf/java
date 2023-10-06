@@ -18,6 +18,7 @@ public class App {
         if (nbDeVentes > 10) {
             salaireFinal = salaireDeBase + primePotentielle;
         }
+        // eezz
 
         System.out.println("le salaire est de " + salaireFinal + " euros ");
     }
